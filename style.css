@@ -17,13 +17,16 @@ body {
 }
 
 .header-streak {
-  background-color: #5865F2; /* Lighter blurple */
+  background-color: #5865F2 !important;
 }
 
 .header-streak-count {
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 15px;
     margin: 0;
+}
+.header-streak-count svg {
+    fill: #ffffff;
 }
 
 .color-empty {
@@ -73,7 +76,6 @@ body {
     color: #ffffff;
     padding: 5px 10px;
     border-radius: 5px;
-    display: inline-block;
 }
 
 /* Container and other content */
