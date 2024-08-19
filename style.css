@@ -10,14 +10,12 @@ body {
 
 /* Header */
 .header {
-    background-color: rgba(40, 40, 40, 0.9);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .header-streak {
-  background-color: #5865F2 !important;
+    background-color: #5865F2 !important;
 }
 
 .header-streak-count {
@@ -25,27 +23,29 @@ body {
     font-size: 15px;
     margin: 0;
 }
-.header-streak-count svg {
+
+.badge svg {
     fill: #ffffff;
 }
 
 .color-empty {
-    fill: #23272A;
+    fill: #2f3136 !important;
 }
+
 .react-calendar-heatmap .color-1 {
-    fill: #7289DA ;
+    fill: #7289DA;
 }
 
 .react-calendar-heatmap .color-2 {
-    fill: #5865F2 ;
+    fill: #5865F2;
 }
 
 .react-calendar-heatmap .color-3 {
-    fill: #454FBF ;
-} 
+    fill: #454FBF;
+}
 
 .react-calendar-heatmap .color-4 {
-    fill: #3A3F97 ;
+    fill: #3A3F97;
 }
 
 .header-title-name {
@@ -61,7 +61,8 @@ body {
 
 /* Links */
 .header-link {
-    color: #7289da; /* Lighter blurple */
+    color: #7289da;
+    /* Lighter blurple */
     margin-right: 10px;
     transition: color 0.3s ease;
 }
@@ -70,12 +71,19 @@ body {
     color: #ffffff;
 }
 
+a {
+    color: #7289da;
+    /* Lighter blurple */
+    transition: color 0.3s ease;
+}
+
+
 /* Badge */
 .badge {
-    background-color: #7289da; /* Lighter blurple */
+    background-color: #7289da;
+    /* Lighter blurple */
     color: #ffffff;
     padding: 5px 10px;
-    border-radius: 5px;
 }
 
 /* Container and other content */
@@ -88,8 +96,9 @@ body {
 
 /* Buttons */
 button {
-    background-color: #5865f2; /* Blurple */
-    color: #ffffff;
+    background-color: #5865f2;
+    /* Blurple */
+    color: #ffffff !important;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -98,5 +107,11 @@ button {
 }
 
 button:hover {
-    background-color: #4752c4; /* Darker blurple */
+    background-color: #4752c4 !important;
+   
+}
+
+/* Footer */
+footer .css {
+    font-size: 0.8em;
 }
