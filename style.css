@@ -10,10 +10,30 @@ body {
 
 /* Header */
 .header {
-    background-color: rgba(88, 101, 242, 0.9); /* Blurple */
+    background-color: rgba(40, 40, 40, 0.9);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.color-empty {
+    color: #23272A;
+}
+
+.color-1 {
+    color: #7289DA
+}
+
+.color-2 {
+    color: #5865F2
+}
+
+.color-3 {
+    color: #454FBF
+}
+
+.color-4 {
+    color: #3A3F97
 }
 
 .header-title-name {
