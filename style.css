@@ -19,21 +19,20 @@ body {
 .color-empty {
     color: #23272A;
 }
-
-.color-1 {
-    color: #7289DA
+.react-calendar-heatmap .color-1 {
+    color: #7289DA !important;
 }
 
-.color-2 {
-    color: #5865F2
+.react-calendar-heatmap .color-2 {
+    color: #5865F2 !important;
 }
 
-.color-3 {
-    color: #454FBF
-}
+.react-calendar-heatmap .color-3 {
+    color: #454FBF !important;
+} 
 
-.color-4 {
-    color: #3A3F97
+.react-calendar-heatmap .color-4 {
+    color: #3A3F97 !important;
 }
 
 .header-title-name {
