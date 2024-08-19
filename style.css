@@ -16,23 +16,33 @@ body {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.header-streak {
+  background-color: #5865F2; /* Lighter blurple */
+}
+
+.header-streak-count {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin: 0;
+}
+
 .color-empty {
-    color: #23272A;
+    fill: #23272A;
 }
 .react-calendar-heatmap .color-1 {
-    color: #7289DA !important;
+    fill: #7289DA ;
 }
 
 .react-calendar-heatmap .color-2 {
-    color: #5865F2 !important;
+    fill: #5865F2 ;
 }
 
 .react-calendar-heatmap .color-3 {
-    color: #454FBF !important;
+    fill: #454FBF ;
 } 
 
 .react-calendar-heatmap .color-4 {
-    color: #3A3F97 !important;
+    fill: #3A3F97 ;
 }
 
 .header-title-name {
